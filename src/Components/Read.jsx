@@ -3,7 +3,6 @@ import Axios from "axios";
 import { useState, useEffect } from "react";
 import { URL } from "../Constants/API_URL";
 import { useNavigate } from "react-router-dom"
-// import Create from "./Components/Create.jsx";
 
 const Read = () => {
   const [users, setUsers] = useState([]);
